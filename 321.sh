@@ -57,12 +57,11 @@ main() {
     echo -e "Done."
 
     echo -n "Updating Dylib..."
-    if [ "$version" == "version-3d35fae7df43441f" ]
-    then
+    
         curl -Os "https://git.abyssdigital.xyz/preview/macsploit.dylib"
-    else
+   
         curl -Os "https://git.abyssdigital.xyz/main/macsploit.dylib"
-    fi
+   
     
     echo -e " Done."
     echo -e "Patching Roblox..."
